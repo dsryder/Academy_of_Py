@@ -909,8 +909,6 @@ schools_csv_path = ("{
    ],
    "source": [
     "#individual school summary data\n",
-    "#schools_district_df= schools_df\n",
-    "#district_df=merged_df\n",
     "\n",
     "schools_df = merged_df.groupby([\"school\"])\n",
     "\n",
